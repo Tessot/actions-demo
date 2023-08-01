@@ -6,6 +6,7 @@ jobs:
     name: A job to say hello
     steps:
       - name: Hello Reactor Javascript Demo
+        id: hello
         uses: Tessot/hello-world-javascript-reactor@v4
         with:
           who-to-greet: 'Mona the Octocat'
